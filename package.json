@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "buffer": "^6.0.3",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "Browse movies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build indexl.html",
+    "compile-scss": "node-sass styles.scss -o dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithgaurav/movie.git"
+  },
+  "keywords": [
+    "Movies"
+  ],
+  "author": "Gaurav Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codewithgaurav/movie/issues"
+  },
+  "homepage": "https://github.com/codewithgaurav/movie#readme"
+}
